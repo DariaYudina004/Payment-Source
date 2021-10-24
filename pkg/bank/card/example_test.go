@@ -33,6 +33,6 @@ func ExamplePaymentSource()  {
 	card :=PaymentSource(cards)
 	fmt.Println(card)
 	//Output: 
-	// 1
-	// 4
+	// [{card 1 99909} {card 4 1037909}]
+	
 }
