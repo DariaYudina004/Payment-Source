@@ -30,7 +30,7 @@ func ExamplePaymentSource()  {
 			Active: true,
 		},
 	}
-	card :=PaymentSource(cards)
+	card :=PaymentSources(cards)
 	fmt.Println(card)
 	//Output: 
 	// [{card 1 99909} {card 4 1037909}]
